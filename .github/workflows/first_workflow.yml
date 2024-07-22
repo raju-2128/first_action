@@ -1,0 +1,12 @@
+name: first-workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Kanna
+        run: echo "Kanna...."
+      - name: Print multi line
+        run: |
+          echo "miss u kanna",
+          echo "love you so much."
