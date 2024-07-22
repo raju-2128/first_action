@@ -8,5 +8,5 @@ jobs:
         run: echo "Kanna...."
       - name: Print multi line
         run: |
-          echo "miss u kanna",
+          echo "Miss u kanna"
           echo "love you so much."
